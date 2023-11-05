@@ -1,6 +1,6 @@
 # These substitutions allow the end user to override certain values
 substitutions:
-  name: "project-template"
+  name: "Antela-C35-Candle"
 
 esphome:
   name: "${name}"
@@ -11,13 +11,11 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: esphome.project-template
+    name: esphome.Antela-c35-candle
     version: "1.0"
 
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
+bk72xx:
+  board: generic-bk7231n-qfn32-tuya
 
 # To be able to get logs from the device via serial and api.
 logger:
